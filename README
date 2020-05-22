@@ -1,3 +1,20 @@
+## What is it?
+This is my custom dwm 6.2 setup with additional key bindings and patch plugins
+
+## What's custom?
+* systray patch
+* fullgaps patch
+* Custom key bindings
+
+## Additional key bindings
+* Win key as mod key
+* mod+s - make screenshot (flameshot)
+* mod+shift+l - lock screen (slimlock)
+* XF86WebCam - open cheese
+* Media keys for brightness
+* Media keys for volume (with custom script for volume increase that allows to go beyond 100%, but not above 205%)
+
+## Original description
 dwm - dynamic window manager
 ============================
 dwm is an extremely fast, small, and dynamic window manager for X.
