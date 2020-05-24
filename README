@@ -6,6 +6,8 @@ This is my custom dwm 6.2 setup with additional key bindings and patch plugins
 * fullgaps patch
 * Custom key bindings
 * Alternative tags indicators
+* Hidden window titles
+
 
 ## Additional key bindings
 * Win key as mod key
