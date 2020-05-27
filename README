@@ -9,6 +9,9 @@ This is my custom dwm 6.2 setup with additional key bindings and patch plugins
 * Hidden window titles
 * No borders around windows
 * Maximize patch for floating windows
+* Additional Fibonacci layouts
+* Additional centered layouts
+* Support for statuscmd signals (for dwmblocks)
 
 ## Additional key bindings
 * Win key as mod key
@@ -18,6 +21,8 @@ This is my custom dwm 6.2 setup with additional key bindings and patch plugins
 * Media keys for brightness
 * Media keys for volume (with custom script for volume increase that allows to go beyond 100%, but not above 205%)
 * Toggle maximize of floating window with mod+shift+M
+* mod+u and mod+o for centered layouts
+* mod+r and mod+shift+r for fibonacci layouts
 
 ## Original description
 dwm - dynamic window manager
