@@ -490,7 +490,7 @@ buttonpress(XEvent *e)
 			char *text = rawstext;
 			int i = -1;
 			char ch;
-			statuscmdn = 0;
+			statuscmdn = 1;
 			while (text[++i]) {
 				if ((unsigned char)text[i] < ' ') {
 					ch = text[i];

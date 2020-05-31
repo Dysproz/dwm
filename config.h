@@ -40,6 +40,7 @@ static const Rule rules[] = {
         { "Pavucontrol",NULL,     NULL,       0,            1,           -1 },
         { "Blueman-manager",NULL, NULL,       0,            1,           -1 },
         { "Signal",   NULL,       NULL,       0,            1,           -1 },
+        { "Gnome-calendar", NULL, NULL,       0,            1,           -1 },
 };
 
 /* layout(s) */
@@ -81,7 +82,7 @@ static const char *camcmd[] = { "cheese", NULL };
 static const char *screenshotcmd[] = { "flameshot", "gui", NULL };
 
 /* commands spawned when clicking statusbar, the mouse button pressed is exported as BUTTON */
-static char *statuscmds[] = { "volume_dwmblocks", "battery_dwmblocks", "clock_dwmblocks" };
+static char *statuscmds[] = { "gnome-calendar", "pavucontrol" };
 static char *statuscmd[] = { "/bin/sh", "-c", NULL, NULL };
 
 static Key keys[] = {
