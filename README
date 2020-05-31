@@ -12,6 +12,7 @@ This is my custom dwm 6.2 setup with additional key bindings and patch plugins
 * Additional Fibonacci layouts
 * Additional centered layouts
 * Support for statuscmd signals (for dwmblocks)
+* Colored emoji available
 
 ## Additional key bindings
 * Win key as mod key
@@ -23,6 +24,9 @@ This is my custom dwm 6.2 setup with additional key bindings and patch plugins
 * Toggle maximize of floating window with mod+shift+M
 * mod+u and mod+o for centered layouts
 * mod+r and mod+shift+r for fibonacci layouts
+
+## Additional requirements above the base ones
+In order to make emojis available there has to be libxft-bgra (AUR) package installed
 
 ## Original description
 dwm - dynamic window manager
