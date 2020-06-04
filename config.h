@@ -11,7 +11,7 @@ static const int systraypinningfailfirst = 1;   /* 1: if pinning fails, display 
 static const int showsystray        = 1;     /* 0 means no systray */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "monospace:size=10", "JoyPixels:pixelsize=10:antialias=true:autohint=true" };
+static const char *fonts[]          = { "monospace:size=10", "Symbola:pixelsize=12:antialias=true:autohint=true" };
 static const char dmenufont[]       = "monospace:size=10";
 static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
@@ -75,8 +75,8 @@ static const char *termcmd[]  = { "st", NULL};
 static const char *mutecmd[] = { "/home/szymon/dotfiles/scripts/mute_volume.sh", NULL };
 static const char *volupcmd[] = { "/home/szymon/dotfiles/scripts/increase_volume_safe.sh", NULL };
 static const char *voldowncmd[] = { "/home/szymon/dotfiles/scripts/decrease_volume.sh", NULL };
-static const char *brupcmd[] = { "xbacklight", "-inc", "10", NULL };
-static const char *brdowncmd[] = { "xbacklight", "-dec", "10", NULL };
+static const char *brupcmd[] = { "/home/szymon/dotfiles/scripts/increase_backlight.sh", NULL };
+static const char *brdowncmd[] = { "/home/szymon/dotfiles/scripts/decrease_backlight.sh", NULL };
 static const char *lockscreen[] = { "slimlock", NULL };
 static const char *camcmd[] = { "cheese", NULL };
 static const char *screenshotcmd[] = { "flameshot", "gui", NULL };
