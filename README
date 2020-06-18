@@ -13,6 +13,10 @@ This is my custom dwm 6.2 setup with additional key bindings and patch plugins
 * Additional centered layouts
 * Support for statuscmd signals (for dwmblocks)
 * Colored emoji available
+* Grid layout
+* Fibonacci layout
+* Centered layout
+* pertag patch (each tag may have different layout)
 
 ## Additional key bindings
 * Win key as mod key
