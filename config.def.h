@@ -41,6 +41,7 @@ static const Rule rules[] = {
         { "Blueman-manager",NULL, NULL,       0,            1,           -1 },
         { "Signal",   NULL,       NULL,       0,            1,           -1 },
         { "Gnome-calendar", NULL, NULL,       0,            1,           -1 },
+        { "Telegram", NULL,       NULL,       0,            1,           -1 },
 };
 
 /* layout(s) */
